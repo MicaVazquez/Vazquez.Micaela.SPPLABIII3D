@@ -1,0 +1,100 @@
+{
+  "monstruos": [
+    {
+      "id": 1,
+      "nombre": "Jacobo",
+      "tipo": "Zombie",
+      "defensa": "Estaca",
+      "miedo": 100,
+      "alias": "Musselwhite"
+    },
+    {
+      "id": 2,
+      "nombre": "Jeremiah",
+      "tipo": "Esqueleto",
+      "defensa": "Pocion",
+      "miedo": 200,
+      "alias": "Woodham"
+    },
+    {
+      "id": 3,
+      "nombre": "Sammy",
+      "tipo": "Vampiro",
+      "defensa": "Estaca",
+      "miedo": 300,
+      "alias": "Yakovich"
+    },
+    {
+      "id": 4,
+      "nombre": "Seka",
+      "tipo": "Fantasma",
+      "defensa": "Crucifijo",
+      "miedo": 400,
+      "alias": "Rodell"
+    },
+    {
+      "id": 5,
+      "nombre": "Bailey",
+      "tipo": "Bruja",
+      "defensa": "Pocion",
+      "miedo": 500,
+      "alias": "Jost"
+    },
+    {
+      "id": 6,
+      "nombre": "Rafaelita",
+      "tipo": "Hombre Lobo",
+      "defensa": "Estaca",
+      "miedo": 600,
+      "alias": "Twells"
+    },
+    {
+      "id": 7,
+      "nombre": "Lib",
+      "tipo": "Zombie",
+      "defensa": "Pocion",
+      "miedo": 700,
+      "alias": "Cohrs"
+    },
+    {
+      "id": 8,
+      "nombre": "Tedmund",
+      "tipo": "Esqueleto",
+      "defensa": "Estaca",
+      "miedo": 800,
+      "alias": "Codrington"
+    },
+    {
+      "id": 9,
+      "nombre": "Doug",
+      "tipo": "Vampiro",
+      "defensa": "Plata",
+      "miedo": 900,
+      "alias": "Thomel"
+    },
+    {
+      "id": 10,
+      "nombre": "Reinaldo",
+      "tipo": "Fantasma",
+      "defensa": "Crucifico",
+      "miedo": 693,
+      "alias": "Cornbell"
+    },
+    {
+      "id": 1700077754988,
+      "nombre": "edfaw",
+      "tipo": "Vampiro",
+      "defensa": "Crucifijo",
+      "miedo": 459,
+      "alias": "faefr"
+    }
+  ],
+  "tipos": [
+    "Esqueleto",
+    "Zombie",
+    "Vampiro",
+    "Fantasma",
+    "Bruja",
+    "Hombre Lobo"
+  ]
+}

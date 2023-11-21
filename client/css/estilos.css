@@ -1,0 +1,247 @@
+@font-face{
+ font-family: 'October Crow';
+ src:url(../font/october_crow/October\ Crow.ttf);
+ font-weight: bold;
+ font-style: bold;
+}
+
+@font-face{
+    font-family: 'Twisted Halloween';
+    src:url(../font/twisted_halloween/TwistedHalloween_PERSONAL_USE_ONLY.otf);
+    font-weight: bold;
+    font-style: bold;
+   }
+
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/espeluznante-luz-luna-ilumina-granja-abandonada-invierno-generada-ia_188544-36532.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 6em;
+}
+.logo
+{
+ display: flex;
+ align-items: center;
+}
+.logo img
+{
+    height: 5em;
+}
+/* form */
+form
+{
+    font-family: 'October Crow';
+    font-weight: bold;
+}
+.colorCabecera
+{
+    background-color:#246355;
+    color: white;
+    border-bottom: solid 5px #0F362D;
+}
+
+.rowImpar
+{
+  background-color: rgb(152, 163, 163);
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    color: black;
+    border-spacing: 0;
+    border-radius: 12px 0 12px 0;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3);
+}
+
+th,td{
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+th{
+    text-transform: capitalize;
+}
+
+td{
+    text-align: right;
+}
+tbody tr:hover{
+    background-color: #369681;
+    color:white;
+}
+.rowPar
+{
+ background-color: #ddd;
+}
+
+
+.small-icon
+{
+    height: 15px;
+    width: 18px;
+}
+
+.seccion-formulario
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'October Crow';
+  margin-bottom: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(131, 194, 38);
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'October Crow';
+}
+
+nav a:hover
+{
+    color: white;
+}
+
+li{
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 106, 127);
+    font-family: 'Twisted Halloween';
+    color: azure;
+}
+
+body{
+    background-image: url(../img/fondo-acuarela-halloween_52683-43699.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'October Crow';
+}
+.secciones
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+fieldset
+{
+  padding: 3em;
+  border-radius: 1em;
+  margin-bottom: 4em;
+  margin-top: 2em;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+  color: white; 
+  border: none;
+}
+
+.rdoDefensa input {
+    margin-right: 10px; /* Márgen derecho para separar los elementos */
+}
+
+input {
+    border-radius: 4px;
+    font-family: 'October crow';
+}
+
+select
+{
+    border-radius: 10px;
+    font-family: 'October crow';
+}
+
+button {
+    margin-top: 1em;
+    background: rgb(77, 4, 136);
+    cursor: pointer;
+    border: none;
+    padding: 3px 3px;
+    color: azure;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 3px;
+}
+
+
+button:active
+{
+    transform: scale(0.96);
+}
+
+/*footer*/
+footer
+{
+    background-color: rgb(121, 79, 160);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+    min-height: 4em;
+}
+
+/* spinner */
+.oculto
+{
+    display: none;
+}
+
+#spinner
+{
+    width: 4em;
+    height: 4em;
+}
+
+span
+{
+    color: rgb(148, 219, 41);
+} 
+
+.ul-header,.ul-footer{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+/*separa los elementos del fieldset  */
+fieldset div {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 700px)
+{
+  .ul-header,.ul-footer
+  {
+    flex-direction: column;
+  }
+}

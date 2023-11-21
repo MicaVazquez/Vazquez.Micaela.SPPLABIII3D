@@ -1,0 +1,145 @@
+@font-face{
+  font-family: 'October Crow';
+  src:url(../font/october_crow/October\ Crow.ttf);
+  font-weight: bold;
+  font-style: bold;
+ }
+
+ @font-face{
+  font-family: 'Twisted Halloween';
+  src:url(../font/twisted_halloween/TwistedHalloween_PERSONAL_USE_ONLY.otf);
+  font-weight: bold;
+  font-style: bold;
+ }
+ 
+ *
+{
+    margin: 0;
+    padding: 0;
+}
+
+.card
+{
+    width: 20%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: linear-gradient(rgb(98, 0, 255), pink);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    text-align: center;
+}
+
+.card:hover
+{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3%);
+}
+
+#seccion-cards
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1110px;
+}
+
+
+body{
+    background-image: url(../img/fondo-acuarela-halloween_52683-43698.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'October Crow';
+}
+
+
+header
+{
+    display: flex;
+    height: auto;
+    background-image: url(../img/espeluznante-luz-luna-ilumina-granja-abandonada-invierno-generada-ia_188544-36532.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6em;
+}
+
+h2{
+  font-family: 'Twisted Halloween';
+  color: azure;
+}
+
+.logo
+{
+ display: flex;
+ align-items: center;
+}
+.logo img
+{
+    height: 5em;
+}
+
+.small-icon
+{
+    height: 15px;
+    width: 18px;
+}
+
+
+body{
+    margin: 0;
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(148, 219, 41);
+}
+
+nav a{
+    /*font-weight: 600;*/
+    padding: 10px;
+}
+
+nav a:hover
+{
+    color: white;
+}
+
+footer
+{
+    background-color: rgb(121, 79, 160);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    min-height: 4em;
+}
+
+span
+{
+    color: rgb(148, 219, 41);
+}
+
+@media (max-width: 700px)
+{
+  .ul-header,.ul-footer
+  {
+    flex-direction: column;
+  }
+}
