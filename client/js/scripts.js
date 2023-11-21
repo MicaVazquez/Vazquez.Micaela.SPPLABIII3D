@@ -11,7 +11,7 @@ import { createElementAxios,getElementsAxios,deleteElementAxios,updateElementAxi
 
  //monstruos
 // const monstruos =JSON.parse(localStorage.getItem("monstruos")) || [];
-let monstruos = await getElementsAjax(URL);
+let monstruos = await getElementsAjax(URL) || [];
 
 //id global
 let id = null;
